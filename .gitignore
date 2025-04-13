@@ -1,0 +1,38 @@
+# === Rust build artifacts ===
+/target/
+
+# === Cargo package manager ===
+**/*.rs.bk
+Cargo.lock      # only ignore in libraries, include for binary apps (more below)
+.cargo/
+
+# === Backup & editor files ===
+**/*~
+**/#*#
+**/.#*
+**/.DS_Store
+**/Thumbs.db
+
+# === IDE / Editor / OS files ===
+# VS Code
+.vscode/
+
+# JetBrains IDEs (CLion, IntelliJ, etc.)
+.idea/
+*.iml
+
+# Windows specific
+*.exe
+*.dll
+*.pdb
+
+# macOS specific
+.DS_Store
+
+# Linux specific
+*.swp
+*.swo
+
+# === Logs & temp files ===
+*.log
+*.tmp
