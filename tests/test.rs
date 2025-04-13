@@ -7,5 +7,5 @@ fn test_addition() {
 
 #[test]
 fn test_addition_negative() {
-    assert_ne!(add(2, 2), 4);
+    assert_ne!(add(2, 2), 5);
 }
